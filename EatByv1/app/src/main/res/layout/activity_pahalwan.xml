@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="1"
+        android:weightSum="1">
+
+        <ImageView
+            android:id="@+id/proimg"
+
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+
+            android:src="@drawable/pahalwan" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:text="Product Description"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:background="#f2660a" />
+
+
+        <TextView
+            android:id="@+id/prdestxt"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="Welcome to Pahalwan.
+ It's easy, fast and convenient Try our online website which contains all our takeaway menu. Order online your favourite great tasting wraps, spare ribs, pizzas, burgers, kebabs, fried chicken and Much more and get fast free home delivery service.. Our Delivery service is fast and the food you ordered will be at your door." />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#000"/>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp">
+
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="130dp"
+                android:src="@drawable/star" />
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:src="@drawable/star"
+                android:layout_marginLeft="170dp"/>
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:src="@drawable/star"
+                android:layout_marginLeft="210dp"/>
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:src="@drawable/star"
+                android:layout_marginLeft="250dp"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_marginTop="20dp">
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="match_parent"
+                android:background="#f2660a"
+                android:text="Book Table"
+                android:gravity="center"
+                android:textSize="22dp"
+                android:textColor="#fff"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="200dp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:id="@+id/button"
+                android:background="#f2660a"
+                android:text="Call"
+                android:gravity="center"
+                android:textSize="22dp"
+                android:textColor="#fff"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="200dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="0dp"/>
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/lblRateMe"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rate Restaurant"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <RatingBar
+            android:id="@+id/ratingBar1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:numStars="5"
+            android:stepSize="1.0"
+            android:rating="1.0"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="60dp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button12"
+            android:text="Submit"
+            android:background="@drawable/rbutton"
+            android:layout_marginTop="20dp"
+            android:textSize="20sp"
+            android:textColor="#ffffff"/>
+    </TableLayout>
+</ScrollView>

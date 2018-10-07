@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "913788915177",
+    "firebase_url": "https://eatby-bd179.firebaseio.com",
+    "project_id": "eatby-bd179",
+    "storage_bucket": "eatby-bd179.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:913788915177:android:f2cf9778b69f3ef0",
+        "android_client_info": {
+          "package_name": "com.alpha.abhi.eatbyv1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "913788915177-n9kc8n0mrd50qvdrs72cv8qa933bchg1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMcOCI6fz9Ek57jEz5SgZFlBbdl2Jh5L4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
